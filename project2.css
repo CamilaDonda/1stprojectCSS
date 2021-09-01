@@ -1,0 +1,607 @@
+
+
+/* this is the header menu */
+body{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+}
+header {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    margin-top: 15px;
+}
+nav a:hover {
+    color: rgb(39, 30, 30);
+}
+nav a{
+    text-decoration: none;
+    color:rgb(22, 22, 21);
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1rem;
+    padding: 30px;
+
+}
+.menu-brasil{
+    font-size: 2rem;
+    color:rgb(99, 107, 24);
+   
+}
+.menu-brasil:hover {
+    color:rgb(209, 180, 83);
+    transition: 0.5s;
+}
+/* end of header menu */
+
+/* main starts */
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(https://images.unsplash.com/photo-1594749763924-c1fc94018423?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fGJyYXNpbCUyMGJlYWNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.banner{
+    position: absolute;
+    font-family: 'Baloo Tammudu 2', cursive;
+    left: 5rem;
+    bottom: 20rem;
+    width: 35rem;
+    height: 15rem;
+    border: 0.6rem solid rgba(10, 10, 9, 0.2);
+    text-align: center;
+    letter-spacing: 0.5px;
+   
+}
+
+.banner-heading{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.banner-middle{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px; 
+    
+}
+/* start of cards section */
+
+.cards-container-secondpage{
+
+   width: 100%;
+   height: 400px;
+ margin: 0 auto;
+   padding: 2rem;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: whitesmoke;
+}
+
+
+.card-firstline{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    width: 20%;
+    height: 100%;
+    border: 1rem solid #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.card__image{
+    width: 100%%;
+    height: 60%;
+    opacity:0.8;
+   
+
+}
+
+.card__content{
+    line-height: 1.5;
+    font-size: 1em;
+    background:#fafafa;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+.card__rj{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.card__info{
+   width: 100%;
+   height: 40%;
+   padding:0px;
+   font-weight: lighter;
+  
+   
+}
+/* end of cards section */
+
+.container_faces{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(https://images.unsplash.com/photo-1569542994005-477753e2da67?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8YnJhc2lsJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60) no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    
+}
+
+.black__banner{
+    width: 100%;
+    
+}
+.black__banner h1{
+    position: absolute;
+    font-family: 'Baloo Tammudu 2', cursive;
+    left: 5rem;
+    bottom: 10rem;
+    width: 35rem;
+    height: 15rem;
+    border: 0.6rem solid rgba(10, 10, 9, 0.2);
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 80px;
+    
+
+}
+
+/* start of section faces*/
+
+#faces{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.cards__faces{
+    width:20%;
+    height:89vh;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    transition:0.3s;
+}
+
+.card__one img{
+    width: 60%;
+    height: 30%;
+    display: block;
+    object-fit:cover;
+    opacity:0.8;
+   
+}
+
+
+/* end of section faces*/
+
+
+    .card-container{
+
+    width: 100%;
+    background-color: whitesmoke;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+    
+    }
+
+    .card{
+        background-color: whitesmoke;
+        border: none;
+        width: 20%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-wrapper{
+        padding-top: 40px;
+        width: 100%;
+        height:60%;
+        overflow:hidden;
+    }
+    .img-wrapper img{
+        width:100%;
+        object-fit: cover;
+    }
+    .info-wrapper{
+        width:100%;
+        height:40%;
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .parent {
+        position: relative;
+        top: 0;
+        left: 0;
+       
+      }
+      .image1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        border: none;
+        opacity: 0.5;
+      }
+      .image2 {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        border: none;
+      }
+      .parent h3{
+          font-family: fantasy;
+          font-weight: lighter;
+          writing-mode: vertical-rl;
+          text-orientation: mixed;
+          text-align: left;
+          margin:0;
+         
+          
+      }
+
+      /* start of yellow block and cards*/
+.textbox{
+    display: inline-block;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-items: stretch;
+}
+
+      .yellow-block{
+          border: none;
+          width: 60%;
+          height: 200px;
+          margin-bottom: 0;
+          background-color: rgb(224, 205, 30);
+          display: flex;
+          align-items: center;
+          justify-items: stretch;
+          margin: 0 auto;
+
+      }
+       /* end of yellow block and cards*/
+
+      /* start of cards section yellow*/
+
+.container-surf{
+display: grid;
+grid-auto-flow: column;
+grid-gap: 10px;
+align-content: center;
+justify-content: center;    
+}
+.card-surf{
+    background-color: #fff;
+    background-size:cover;
+    width:20rem;
+    height:400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: cover;
+   position: relative;
+   top: -100px;
+   padding: 0px;
+   
+   
+
+}
+.img-wrapper-surf{
+    width:100%;
+    overflow: hidden;
+   
+}
+.img-wrapper-surf img{
+    width:100%;
+    height:350px;
+   
+    
+}
+.surf-info{
+    width:100%;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-top: 10px;
+
+}
+.surf-info a{
+color: rgb(102, 101, 101);
+
+}
+.surf-info a:hover{
+    font-size: 20px;
+    transition: 0.5s;
+    color: rgb(80, 78, 78);
+}
+
+/* icons container starts here */
+
+.banner-question{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-shadow: 1px 1px 15px rgb(156, 156, 154);
+}
+.icon-first-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px;
+    grid-column-gap: 50px;
+    justify-content: space-evenly;
+padding: 30px;
+background-color:rgb(206, 212, 218);
+overflow: hidden;
+
+}
+.icon-container{
+ font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: black;
+}
+.icon{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top:10px;
+}
+.icon-text{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.icon-text:hover{
+    font-size: 22px;
+    text-decoration: underline;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+/* icons container ends here */
+
+/* form starts here*/
+
+.names-container{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    object-position: center;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    background-color: rgb(209, 204, 161);
+    position: relative;
+    left:25%;
+    
+}
+.contact-form{
+    background-color: rgb(236, 233, 201);
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: none;
+}
+.contact-text{
+    text-align: center;
+    font-weight:lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 15px rgb(156, 156, 154);
+
+}
+.text-name, .email{
+    width: 125%;
+    height:20px;
+    margin-bottom: 5px;
+    padding-left: 0px;
+    text-align: left;
+    
+}
+.message{
+    width: 100%;
+    height:30px;
+    padding: 50px;
+    padding-left:0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+}
+.submit-btn{
+    width: 130%;
+    height: 30px;
+    background-color: rgb(209, 204, 161);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+/* form ends here*/
+
+/* footer starts here*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    display:inline-block;
+    border: none;
+    position: relative;
+    width: 100%;
+    text-align:center;
+    text-size-adjust: center;
+    transition: 1s;
+    margin-top: 100px;
+    background-color: grey;
+    font-size: 20px;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+
+footer p{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+
+/* media screen */
+@media only screen and (max-width: 1200px) {
+
+    .card-container {
+       flex-direction:  row;
+       align-items: right;
+        width:70%;
+    }
+    .cards-container-secondpage{
+        width: 50%;
+    }
+    .card {
+      width: 60%;
+    }
+    .textbox{
+        width: 60%
+    }
+    #faces{
+        flex-direction:  row;
+        align-items: right;
+         width:85%; 
+    }
+    .yellow-block{
+        display: flex;
+        flex-direction: column;
+        width: 50%
+    }
+    .container-surf{
+        width: 60%
+    }
+    .icon-first-container{
+        width: 60%;
+    }
+    .banner-question{
+        width:50%;
+    }
+    .contact-form{
+        width:50%;
+    }
+    .footer-menu{
+        width: 60%;
+    }
+}
+
+
+    
+@media screen and (max-width: 400px){
+    nav a{
+        width:100%;
+        height:100%;
+        padding:10px;  
+    }
+    .home, .footer-menu{
+        width: 100%;
+  overflow: hidden;
+        
+        
+    }
+    .banner {
+        overflow: hidden;
+        width: 70%;    
+    }
+    .banner-heading, .banner-middle {
+        font-size: 30px;
+    }
+    .cards-container-secondpage{
+        flex-wrap: wrap;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+
+    }
+    .card-firstline, .card__image, .card__content, .card__rj{
+        font-size: 10px;
+        overflow-x: hidden;
+    }
+   
+    #faces{
+        width: 70%;
+        font-size:50px; 
+    }
+    .card-container{
+         flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: left;
+        flex-direction: column;
+        width: 40%;
+        padding-left: 0px;  
+    }
+    #visit{
+        align-items: center;
+        justify-content: center;
+    }
+    .container-surf {
+        flex-direction: column;
+        justify-content: space-around; 
+        display: block;
+    }
+    .card-surf{
+        padding:10px;
+        font-size:20px;
+       
+    }
+    .card-surf img{
+        width:100%;
+        
+        
+    }
+    .img-wrapper-surf img{
+        width: 100%;
+        
+    }
+    .icon-first-container{
+        display: block;
+        padding:10px;
+        
+}
+
+ }
+ 
+   
